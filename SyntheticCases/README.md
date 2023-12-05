@@ -1,4 +1,4 @@
-This directory contains the data and R scripts to upload the synthetic cases.
+This directory contains the data and R scripts to upload the synthetic cases. A summary is provided in [HOUSES_UncProblem](HOUSES_UncProblem.pdf).
 
 # Data
 The synthetic cases focus on the spatial prediction Soil organic carbon stock (OCS, expressed in Mg/ha) in the 0–30 cm layer. The cases are adapted from the procedure described by [de Bruin et al. (2022)](https://doi.org/10.1016/j.ecoinf.2022.101665). The original data (geotiff and shapefiles) can be downloaded [here](https://doi.org/10.5281/zenodo.6513429).
@@ -54,3 +54,7 @@ The objective is to assess different error and uncertainty metrics using the Ful
 
 See [here](https://www.nature.com/articles/s41597-023-02056-8) for *Mcov.PI* and this [here](https://journals.ametsoc.org/view/journals/mwre/133/5/mwr2904.1.xml) for *CRPS*. 
 An overview of *Mcov.PI* and *CRPS* is given in the figure![](./img/CRPS_AccuracyPlot.png).
+# Scripts
+- The R script [run_qRF](./run_qRF.R) provides an example of the application with the quantile random forest method
+- The R script [run_visualisation_data](./run_visualisation_data.R) provides an example for plotting the different cases.
+  
