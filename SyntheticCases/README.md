@@ -53,4 +53,4 @@ The objective is to assess different error and uncertainty metrics using the Ful
 | CRPS | Continuous Ranked Probability Score (average value over the test set) | - |
 
 See [here](https://www.nature.com/articles/s41597-023-02056-8) for *Mcov.PI* and this [here](https://journals.ametsoc.org/view/journals/mwre/133/5/mwr2904.1.xml) for *CRPS*. 
-An overview of *Mcov.PI* and *CRPS* is given in the figure![](./img/CRPS_accuracyPlot.png).
+An overview of *Mcov.PI* and *CRPS* is given in the figure![](./img/CRPS_AccuracyPlot.png).
