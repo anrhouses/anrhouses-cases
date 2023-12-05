@@ -1,7 +1,7 @@
 This directory contains the data and R scripts to upload the synthetic cases.
 
 # Data
-The synthetic cases focus on the spatial prediction Soil organic carbon stock (OCS, expressed in Mg/ha) in the 0–30 cm layer. The cases are adapted from the procedure described by [de Bruin et al. (2022)](https://doi.org/10.1016/j.ecoinf.2022.101665). The original data (geotiff and shapefiles) can be downloaded [here](https://doi.org/10.5281/zenodo.6513429).
+The synthetic cases focus on the spatial prediction Soil organic carbon stock (OCS, expressed in Mg/ha) in the 0â€“30 cm layer. The cases are adapted from the procedure described by [de Bruin et al. (2022)](https://doi.org/10.1016/j.ecoinf.2022.101665). The original data (geotiff and shapefiles) can be downloaded [here](https://doi.org/10.5281/zenodo.6513429).
 
 The data are available [here](./data):
 | File name     | Description           | Name |
@@ -24,13 +24,13 @@ The file for the six experiments C, SC1, SC2, CIo, CIc, CIi contains a data fram
 The covariates are described [de Bruin et al. (2022)](https://doi.org/10.1016/j.ecoinf.2022.101665):
 | Covariate     | Description           | Name |
 | ------------- |:---------------------:|------|
-| bio1  | Mean annual air temperature | °C |
-| bio5      | Mean daily maximum air temperature of the warmest month | °C |
-| bio7 | Annual range of air temperature | °C |
-| bio12 | Annual precipitation | kg/m² |
-| bio15 | sPrecipitation seasonality | kg/m² |
+| bio1  | Mean annual air temperature | Â°C |
+| bio5      | Mean daily maximum air temperature of the warmest month | Â°C |
+| bio7 | Annual range of air temperature | Â°C |
+| bio12 | Annual precipitation | kg/mÂ² |
+| bio15 | sPrecipitation seasonality | kg/mÂ² |
 | ai | Aridity Index | - |
-| gdd10 | Growing degree days heat sum above 10 °C | - |
+| gdd10 | Growing degree days heat sum above 10 Â°C | - |
 | glc2017 | Landcover 2017 | Categorial |
 | dem | Elevation | m |
 | slope | Slope | - |
@@ -53,3 +53,4 @@ The objective is to assess different error and uncertainty metrics using the Ful
 | CRPS | Continuous Ranked Probability Score (average value over the test set) | - |
 
 See [here](https://www.nature.com/articles/s41597-023-02056-8) for *Mcov.PI* and this [here](https://journals.ametsoc.org/view/journals/mwre/133/5/mwr2904.1.xml) for *CRPS*. 
+An overview of *Mcov.PI* and *CRPS* is given in the figure![](./img/CRPS_AccuracyPlot.png).
