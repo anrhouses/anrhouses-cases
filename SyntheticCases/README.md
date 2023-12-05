@@ -42,6 +42,8 @@ The covariates are described [de Bruin et al. (2022)](https://doi.org/10.1016/j.
 # Objectives
 The objective is to assess different error and uncertainty metrics using the Full dataset (test set).
 
+## Metrics
+
 | Metric     | Description           | Unit |
 | ------------- |:---------------------:|------|
 | RMSE  | Root Mean Square Error | Mg/ha |
@@ -54,6 +56,12 @@ The objective is to assess different error and uncertainty metrics using the Ful
 
 See [here](https://www.nature.com/articles/s41597-023-02056-8) for *Mcov.PI* and this [here](https://journals.ametsoc.org/view/journals/mwre/133/5/mwr2904.1.xml) for *CRPS*. 
 An overview of *Mcov.PI* and *CRPS* is given in the figure![](./img/CRPS_AccuracyPlot.png).
+
+# Estimation conditional on the *ocs* value
+These scores can be estimated with 
+- the whole distirbution of *ocs*
+- by restricting the analysis to *ocs* being superior to a given threshold, chosen here at 44.16 Mg/ha (75th percentile) and at 50.53 Mg/ha (95th percentile)
+
 # Scripts
 - The R script [run_qRF](./run_qRF.R) provides an example of the application with the quantile random forest method
 - The R script [run_visualisation_data](./run_visualisation_data.R) provides an example for plotting the different cases.
