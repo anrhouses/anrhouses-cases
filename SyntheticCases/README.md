@@ -16,10 +16,10 @@ The data are available [here](./data):
 
 An overview is given in the figure![](./img/cases.png).
 
-The file for the six experiments C, SC1, SC2, CIo, CIc, CIi contains a data frame with
+The file for the six experiments *C*, *SC1*, *SC2*, *CIo*, *CIc*, *CIi* contains a data frame with
 - the values of the 14 covariates
 - the  organic cabron stock *ocs* (variable of interest)
-- for *SCi*, the variable *lb* and *up* provide the lower and upper bound of *ocs*.
+- for *SCi*, the variable *lb* and *up* provide the lower and upper bound of *ocs*
 
 The covariates are described [de Bruin et al. (2022)](https://doi.org/10.1016/j.ecoinf.2022.101665):
 | Covariate     | Description           | Name |
